@@ -1,0 +1,87 @@
+header .logo {
+    display: block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+}
+
+.logo-img{
+cursor: pointer;
+width: 157px;
+height: 38.453px;
+}
+
+
+
+img .banner{
+ display: block;
+ width: 100%;
+}
+
+.banner {
+    background-image: url(../img/event-venue-template-demo.png);
+    background-size: cover;
+    
+    
+    
+    
+}
+
+.banner-div {
+   
+}
+
+.banner-name {
+    color: rgb(255, 255, 255);
+    font-size: 62px;
+    font-weight: 700; 
+    min-width: 320px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    line-height: 1;
+    font-family: poppins, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+   
+    
+}
+
+.text-brand {
+    color: #53f6c6;
+    font-size: 62px;
+    font-weight: 700; 
+    min-width: 320px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    line-height: 1;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+   
+
+}
+.under-bannername {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    display: grid;
+    place-items: center;
+}
+
+.halls {
+    background-color: transparent!important;
+}
+
+.space_hall {
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.majestic-hall {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.business_hall {
+    display: inline-block;
+}
+
