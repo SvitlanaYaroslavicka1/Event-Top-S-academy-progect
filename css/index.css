@@ -1,5 +1,9 @@
-header .logo {
-    display: block;
+.container-logo {
+    display: flex;
+    justify-content: space-between;
+}
+ header .logo {
+    
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
 }
@@ -42,6 +46,8 @@ img .banner{
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
+    display: flex;
+    justify-content: center;
    
     
 }
@@ -67,21 +73,7 @@ img .banner{
     place-items: center;
 }
 
-.halls {
-    background-color: transparent!important;
-}
-
-.space_hall {
-    display: inline-block;
-    box-sizing: border-box;
+.card-img-top1 { max-width: 45px;
+    max-height: 50px;
 
 }
-.majestic-hall {
-    display: inline-block;
-    box-sizing: border-box;
-}
-
-.business_hall {
-    display: inline-block;
-}
-
