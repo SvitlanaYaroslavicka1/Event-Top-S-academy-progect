@@ -1,6 +1,8 @@
 .container-logo {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    
 }
  header .logo {
     
@@ -21,7 +23,8 @@ img .banner{
  width: 100%;
 }
 
-.banner {
+
+ header{
     background-image: url(../img/event-venue-template-demo.png);
     background-size: cover;
       
@@ -70,6 +73,5 @@ img .banner{
 
 .card-img-top1 { max-width: 45px;
     max-height: 50px;
-
 }
 
