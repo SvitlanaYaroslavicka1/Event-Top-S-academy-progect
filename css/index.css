@@ -86,3 +86,14 @@ img .banner{
     background-color: #53f6c6;
 }
 
+#about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-img {
+    
+}
+ .card-title {
+font-weight: bolder
+}
