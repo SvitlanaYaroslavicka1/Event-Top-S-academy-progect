@@ -30,7 +30,9 @@ img .banner{
       
 }
 
-
+.card-link {
+        color: #000;
+}
 
 .banner-name {
     color: rgb(255, 255, 255);
@@ -71,7 +73,16 @@ img .banner{
     place-items: center;
 }
 
-.card-img-top1 { max-width: 45px;
+
+.card-img-top1 { 
+    display: block;
+    
+    margin: auto;
+    max-width: 45px;
     max-height: 50px;
+}
+
+.btn btn-primary {
+    background-color: #53f6c6;
 }
 
