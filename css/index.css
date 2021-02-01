@@ -1,13 +1,17 @@
 .container-logo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgb(255, 255, 255);
+    margin-top: 3rem;
+    
     
 }
  header .logo {
     
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
+    
+    
 }
 
 .logo-img{
@@ -89,11 +93,47 @@ img .banner{
 #about {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+.inner-container-first-about{
+    margin-top: 0.5rem ;
+    margin-bottom:0.5rem ;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
-.card-img {
-    
+.inner-container-second-about {
+    display: flex;
+    justify-content: space-around;
+}
+halls-image {
+    object-fit: cover;
+    object-position: 41.34% 50%;
+}
+
+
+.::before {
+    background-color: rgba(0,0,0,0.01);
 }
  .card-title {
-font-weight: bolder
+font-weight: bolder;
+}
+
+element.style {
+   display: grid;
+   grid-template-columns: 1fr, 1fr, 1fr;
+   grid-gap: 50 px;
+}
+
+.around-card {
+   
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+#halls {
+    margin-bottom: 2rem;
 }
