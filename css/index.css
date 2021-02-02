@@ -112,15 +112,11 @@ halls-image {
     object-position: 41.34% 50%;
 }
 
-
-.::before {
-    background-color: rgba(0,0,0,0.01);
-}
  .card-title {
 font-weight: bolder;
 }
 
-element.style {
+element .style {
    display: grid;
    grid-template-columns: 1fr, 1fr, 1fr;
    grid-gap: 50 px;
@@ -135,5 +131,27 @@ element.style {
 }
 
 #halls {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
+
+.events {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+.custom-row {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
