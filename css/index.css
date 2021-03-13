@@ -155,3 +155,36 @@ element .style {
     
 }
 
+#contact_form{
+background-color: black
+}
+.first-container-card h3 {
+    color: #FFFFFF;
+    font-size: 65px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-align: left;
+}
+
+.first-container-card p {
+    color: rgba(225, 225, 225, 0.6);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.turquoise-paint {
+   color:  #53f6c6;
+}
+
+.w-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.contact_form_style {
+    display: block;
+
+}
