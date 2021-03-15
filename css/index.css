@@ -103,11 +103,12 @@ img .banner{
     margin-right: 1.5rem;
 }
 
+
 .inner-container-second-about {
     display: flex;
     justify-content: space-around;
 }
-halls-image {
+.halls-image {
     object-fit: cover;
     object-position: 41.34% 50%;
 }
@@ -156,8 +157,21 @@ element .style {
 }
 
 #contact_form{
-background-color: black
+background-color: black;
+display: block;
+height: 100%;
 }
+
+.w-section {
+    width: auto;
+    height: 65%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
 .first-container-card h3 {
     color: #FFFFFF;
     font-size: 65px;
@@ -176,15 +190,9 @@ background-color: black
    color:  #53f6c6;
 }
 
-.w-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    display: flex;
-    justify-content: space-evenly;
+
+
+.section_form input {
+    margin: 1rem;
     
-}
-
-.contact_form_style {
-    display: block;
-
 }
