@@ -200,7 +200,6 @@ height: 100%;
 }
 
 
-
 .section_form input {
     margin: 1rem;
     display: block;
@@ -230,4 +229,17 @@ height: 100%;
     cursor: pointer;
     background-color: rgb(83, 246, 198);
     font-weight: 700;
+}
+
+.location {
+  
+    display: block;
+   position: absolute;
+   height: 100%;
+    width: 100%;
+    touch-action: pan-x pan-y;
+}
+
+.contacts_card {
+    background: rgba(17, 17, 17, 0.9);
 }
