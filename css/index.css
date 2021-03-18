@@ -302,3 +302,6 @@ text-align: center;
 
 }
 
+.location_box {
+    position:fixed;
+}
