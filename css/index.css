@@ -195,7 +195,7 @@ height: 100%;
     margin-right: 120px;
 
 }
-.turquoise-paint {
+#turquoise-paint  {
    color:  #53f6c6;
 }
 
@@ -229,6 +229,7 @@ height: 100%;
     cursor: pointer;
     background-color: rgb(83, 246, 198);
     font-weight: 700;
+    border-radius: 27px;
 }
 
 .location {
@@ -240,6 +241,64 @@ height: 100%;
     touch-action: pan-x pan-y;
 }
 
-.contacts_card {
-    background: rgba(17, 17, 17, 0.9);
+
+
+#contacts {
+   
+  
+
 }
+
+
+.contacts_card {
+    padding: 20px;
+    background: rgba(17, 17, 17, 0.9);
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    right: 0;
+    margin: 50px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px 0.5px rgb(151 151 151);
+    color: rgb(82, 82, 82);
+
+}
+.contacts_card h2,
+.contacts_card span,
+.contact_card a {
+    color: #fff;
+    font-family: Poppins, sans-serif;
+}
+
+.contacts_card span,
+.contact_card_input {
+font-size: 16px;
+text-align: center;
+}
+
+.our_clients {
+    display: block;
+    width: 100%;
+    background-color: #000;
+}
+
+.our_clients_box1_border {
+    display: block;
+    
+}
+
+.our_client_box1_font_style {
+    display: flex;
+    text-align: center;
+}
+
+.our_client_box1_font_style h4 {
+    font-size: 34px;
+    font-family: Poppins, sans-serif;
+    font-color: #fff;
+
+}
+
