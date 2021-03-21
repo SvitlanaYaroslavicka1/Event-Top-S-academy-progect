@@ -7,7 +7,7 @@
     
 }
  header .logo {
-    
+    display: block;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     
@@ -232,28 +232,9 @@ height: 100%;
     border-radius: 27px;
 }
 
-.location {
-  
-    display: block;
-   position: absolute;
-   height: 100%;
-    width: 100%;
-    touch-action: pan-x pan-y;
-}
-
-
-
-#contacts {
-   
-  
-
-}
-
-
 .contacts_card {
     padding: 20px;
     background: rgba(17, 17, 17, 0.9);
-    position: absolute;
     width: 250px;
     height: 500px;
     right: 0;
@@ -302,6 +283,7 @@ text-align: center;
 
 }
 
-.location_box {
-    position:fixed;
+#footer_box {
+    display: grid;
+    
 }
