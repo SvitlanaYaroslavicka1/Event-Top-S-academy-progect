@@ -401,3 +401,12 @@ color: #000;
 font-weight: 700;
 font-size: 100%;
 }
+@media (max-width: 767px) {
+    #footer_box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        justify-items: center;
+    }
+    
+}
